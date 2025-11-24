@@ -18,6 +18,13 @@ const AboutSummary = () => {
             alt="RJR Safety Nets team - Balcony Safety Nets Bangalore" 
             className="rounded-lg shadow-xl w-full"
           />
+          
+          {/* Additional images for company highlights */}
+          <div className="grid grid-cols-3 gap-4 mt-6">
+            <div><img src="/images/quality-rem2.png" alt="Quality Materials" className="rounded-lg shadow-md w-full" /></div>
+            <div><img src="/images/time-rem.png" alt="Timely Service" className="rounded-lg shadow-md w-full" /></div>
+            <div><img src="/images/safty-rem.png" alt="Safety First" className="rounded-lg shadow-md w-full" /></div>
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 50 }}

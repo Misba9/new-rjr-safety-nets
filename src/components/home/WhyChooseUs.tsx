@@ -7,6 +7,13 @@ const WhyChooseUs = () => {
   return (
     <Section>
       <SectionTitle title="Why Choose Us?" subtitle="Our Advantages" />
+      
+      {/* Additional decorative images */}
+      <div className="hidden md:flex justify-between mb-8">
+        <div><img src="/images/call-btn-rem.png" alt="Call Now" className="w-24 h-24" /></div>
+        <div><img src="/images/whatsapp-btn-rem.png" alt="WhatsApp Us" className="w-24 h-24" /></div>
+      </div>
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {whyChooseUsData.map((item, index) => (
           <motion.div 

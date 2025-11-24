@@ -38,6 +38,13 @@ const About = () => {
             <p className="text-brand-text">
               To be the most trusted name in safety netting, recognized for our commitment to quality, innovation, and customer satisfaction.
             </p>
+            
+            {/* Additional company value images */}
+            <div className="grid grid-cols-3 gap-4 mt-8">
+              <div><img src="/images/quality-rem.png" alt="Quality Assurance" className="rounded-lg shadow-md w-full" /></div>
+              <div><img src="/images/24-hours.png" alt="24/7 Support" className="rounded-lg shadow-md w-full" /></div>
+              <div><img src="/images/free.png" alt="Free Consultation" className="rounded-lg shadow-md w-full" /></div>
+            </div>
           </div>
           <div>
             <img 

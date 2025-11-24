@@ -20,6 +20,20 @@ const Services = () => {
   return (
     <>
       <PageBanner title="Our Services" imageUrl="/images/slider/construction-safety-nets.jpg" />
+      
+      {/* Service category highlights */}
+      <Section className="bg-brand-light-gray py-4">
+        <div className="container mx-auto">
+          <div className="flex flex-wrap justify-center gap-6">
+            <div><img src="/images/balcony.jpg" alt="Balcony Safety Nets" className="h-16 rounded-lg shadow-md" /></div>
+            <div><img src="/images/anti-bird-net.jpg" alt="Bird Protection Nets" className="h-16 rounded-lg shadow-md" /></div>
+            <div><img src="/images/children.jpg" alt="Children Safety Nets" className="h-16 rounded-lg shadow-md" /></div>
+            <div><img src="/images/slider/monkey-protection-nets.jpg" alt="Monkey Protection Nets" className="h-16 rounded-lg shadow-md" /></div>
+            <div><img src="/images/cricket-nets.jpg" alt="Sports Practice Nets" className="h-16 rounded-lg shadow-md" /></div>
+          </div>
+        </div>
+      </Section>
+      
       <Section>
         <SectionTitle title="All Safety Net Solutions" subtitle="Comprehensive Range" />
         <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">

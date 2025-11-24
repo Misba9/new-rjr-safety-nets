@@ -28,6 +28,13 @@ const GalleryGrid = () => {
           </button>
         ))}
       </div>
+      
+      {/* Additional gallery highlights */}
+      <div className="grid grid-cols-2 gap-4 mb-8 md:hidden">
+        <div><img src="/images/pages/balcony-02.jpg" alt="Balcony Safety Nets" className="rounded-lg shadow-md w-full" /></div>
+        <div><img src="/images/pages/children-safety-net.jpg" alt="Children Safety Nets" className="rounded-lg shadow-md w-full" /></div>
+      </div>
+      
       <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-4">
         {filteredImages.map((image, index) => (
           <motion.div

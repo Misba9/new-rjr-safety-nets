@@ -11,6 +11,14 @@ const TestimonialSlider = () => {
   return (
     <Section className="bg-brand-light-gray">
       <SectionTitle title="What Our Clients Say" subtitle="Testimonials" />
+      
+      {/* Client logos or additional images */}
+      <div className="hidden md:flex justify-center gap-8 mb-8">
+        <div><img src="/images/logo/logo-home-welcome.png" alt="Client Logo" className="h-12 opacity-70" /></div>
+        <div><img src="/images/logo/logo-home-welcome.png" alt="Client Logo" className="h-12 opacity-70" /></div>
+        <div><img src="/images/logo/logo-home-welcome.png" alt="Client Logo" className="h-12 opacity-70" /></div>
+      </div>
+      
       <div className="relative">
         <Swiper
           modules={[Autoplay, Navigation]}

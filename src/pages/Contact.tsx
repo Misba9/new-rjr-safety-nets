@@ -25,6 +25,24 @@ const Contact = () => {
           <div>
             <h2 className="text-3xl font-bold text-brand-dark-blue mb-6">Get In Touch</h2>
             <ContactForm />
+            
+            {/* Contact method images */}
+            <div className="mt-8 grid grid-cols-2 gap-4">
+              <div className="flex items-center">
+                <div><img src="/images/call-btn-rem.png" alt="Call Us" className="w-12 h-12 mr-3" /></div>
+                <div>
+                  <p className="font-bold">Call Us</p>
+                  <p className="text-sm">+91 7075051812</p>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <div><img src="/images/whatsapp-btn-rem.png" alt="WhatsApp Us" className="w-12 h-12 mr-3" /></div>
+                <div>
+                  <p className="font-bold">WhatsApp</p>
+                  <p className="text-sm">+91 8074514411</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
             <h2 className="text-3xl font-bold text-brand-dark-blue mb-6">Contact Information</h2>

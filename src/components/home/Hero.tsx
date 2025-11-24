@@ -10,6 +10,20 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <div className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] w-full">
+      {/* Additional decorative images */}
+      <div className="hidden md:block absolute top-4 left-4 z-10">
+        <div><img src="/images/24-hours.png" alt="24 Hours Service" className="w-16 h-16" /></div>
+      </div>
+      <div className="hidden md:block absolute top-4 right-4 z-10">
+        <div><img src="/images/Affordable Price.png" alt="Affordable Price" className="w-16 h-16" /></div>
+      </div>
+      <div className="hidden lg:block absolute bottom-4 left-4 z-10">
+        <div><img src="/images/free.png" alt="Free Consultation" className="w-16 h-16" /></div>
+      </div>
+      <div className="hidden lg:block absolute bottom-4 right-4 z-10">
+        <div><img src="/images/quality-rem.png" alt="Quality Work" className="w-16 h-16" /></div>
+      </div>
+      
       <Swiper
         modules={[Autoplay, Pagination, EffectFade]}
         spaceBetween={0}
