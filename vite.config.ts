@@ -13,13 +13,13 @@ export default defineConfig({
   },
   
   build: {
-    chunkSizeWarningLimit: 3000,
+    chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom', 'react-router-dom'],
           ui: ['framer-motion', 'swiper'],
-          utils: ['@faker-js/faker', 'class-variance-authority', 'clsx', 'tailwind-merge']
+          utils: ['class-variance-authority', 'clsx', 'tailwind-merge']
         }
       }
     }
